@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.13.1)
 
 set (CMAKE_CXX_STANDARD 17)
 
+set(EXTRA_COMPONENTS_DIR "components/")
+
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(ei_standalone_esp32)
 
